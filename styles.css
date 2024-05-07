@@ -65,11 +65,11 @@ body {
 }
 
 .nav-item > a:hover {
-  background-color: #e7e5e4;
+  background-color: #e7e5e4c0;
   color: #0c0a09;
 }
 
-.nav-item > a:active {
+.nav-item > a.active {
   background-color: #e7e5e4;
   color: #0c0a09;
 }
