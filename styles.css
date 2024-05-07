@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   /* background: #0A0A0A; */
   color: #fafaf9;
   background-image: url("images/bg.jpg");
@@ -75,7 +75,7 @@ body {
 }
 
 .main {
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,6 +89,16 @@ body {
   font-size: 4rem;
   font-weight: 900;
   text-align: center;
+}
+
+.about {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
 }
 
 .about-description {
